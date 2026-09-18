@@ -1,12 +1,32 @@
 #EXTM3U
-# Legitimate/public adult-oriented linear streams only.
-# No pirated premium TV restreams.
-# Verified/researched on 2026-09-18.
+# Public/free adult-oriented linear streams.
+# Premium pay-TV restreams intentionally excluded.
+# Updated 2026-09-18.
 
-# Visit-X TV — official broadcaster-hosted HLS on stream.visit-x.tv
+# Visit-X TV — current public HLS path seen in maintained IPTV indexes
 #EXTINF:-1 tvg-id="VisitXTV.nl" group-title="Adult TV",Visit-X TV
-https://stream.visit-x.tv/vxtv/live/playlist.m3u8
+https://stream.visit-x.tv/vxtv/ngrp:live_all/playlist.m3u8
 
-# Miami TV — official 24/7 entertainment network; public HLS feed
+# Miami TV — current WEB profile
 #EXTINF:-1 tvg-id="MiamiTV.us" group-title="Adult TV",Miami TV
-https://59ec5453559f0.streamlock.net/miamitv/smil:miamitv/playlist.m3u8
+https://59ec5453559f0.streamlock.net/miamitv/smil:miamitvWEB/playlist.m3u8
+
+# Miami TV Jenny Live
+#EXTINF:-1 tvg-id="" group-title="Adult TV",Miami TV Jenny Live
+https://59ec5453559f0.streamlock.net/JennyLive/JennyLive/playlist.m3u8
+
+# Miami TV Latino
+#EXTINF:-1 tvg-id="" group-title="Adult TV",Miami TV Latino
+https://5ee7c2b857b7f.streamlock.net/latino/latino/playlist.m3u8
+
+# Miami TV Mexico
+#EXTINF:-1 tvg-id="" group-title="Adult TV",Miami TV Mexico
+https://59ec5453559f0.streamlock.net/mexicotv/smil:miamitvmexicoROKU/playlist.m3u8
+
+# Jasmin TV — public web feed
+#EXTINF:-1 tvg-id="" group-title="Adult TV",Jasmin TV
+http://109.71.162.112/live/hd.jasminchannel.stream/playlist.m3u8
+
+# Babestation24 — public web feed
+#EXTINF:-1 tvg-id="" group-title="Adult TV",Babestation24
+https://sdn-global-live-http-cache.3qsdn.com/live/_definst_/amlst:9528-mbr/chunklist.m3u8
