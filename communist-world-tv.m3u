@@ -1,0 +1,45 @@
+#EXTM3U
+# Curated public/free-to-access streams. Availability and geoblocking can change.
+# Sources checked against iptv-org public stream listings on 2026-09-18.
+
+# --- DPRK ---
+#EXTINF:-1 tvg-id="KoreanCentralTelevision.kp@HD" group-title="DPRK",Korean Central Television (KCTV)
+https://kctv.koryofront.org/stream/index.m3u8
+#EXTINF:-1 tvg-id="RyongnamsanTelevision.kp@SD" group-title="DPRK",Ryongnamsan Television
+https://kctv.koryofront.org/stream/ryongnamsan/index.m3u8
+#EXTINF:-1 tvg-id="SportsTelevision.kp@HD" group-title="DPRK",Sports Television
+https://kctv.koryofront.org/stream/sports/index.m3u8
+
+# --- Cuba ---
+#EXTINF:-1 tvg-id="CubavisionInternacional.cu@SD" group-title="Cuba",Cubavision Internacional
+#EXTVLCOPT:http-referrer=https://teveo.cu/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://cdn.teveo.cu/live/video/A36pWmuWvZBQskuZ/ngrp:gppfydfzpSUn9Udy.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="PrensaLatinaTV.cu@SD" group-title="Cuba",Prensa Latina TV
+https://eu1.servers10.com:8081/8192/index.m3u8
+
+# --- China ---
+#EXTINF:-1 tvg-id="CGTN.cn@SD" group-title="China",CGTN English
+https://news.cgtn.com/resource/live/english/cgtn-news.m3u8
+#EXTINF:-1 tvg-id="CGTNDocumentary.cn@SD" group-title="China",CGTN Documentary
+https://english-livebkali.cgtn.com/live/doccgtn.m3u8
+#EXTINF:-1 tvg-id="CGTNSpanish.cn@SD" group-title="China",CGTN Espanol
+https://news.cgtn.com/resource/live/espanol/cgtn-e.m3u8
+#EXTINF:-1 tvg-id="CGTNFrench.cn@SD" group-title="China",CGTN Francais
+https://news.cgtn.com/resource/live/french/cgtn-f.m3u8
+#EXTINF:-1 tvg-id="CGTNArabic.cn@SD" group-title="China",CGTN Arabic
+https://news.cgtn.com/resource/live/arabic/cgtn-a.m3u8
+#EXTINF:-1 tvg-id="CGTNRussian.cn@SD" group-title="China",CGTN Russian
+https://news.cgtn.com/resource/live/russian/cgtn-r.m3u8
+
+# --- Vietnam ---
+#EXTINF:-1 tvg-id="VTV1.vn@HD" group-title="Vietnam",VTV1 HD
+https://live-a.fptplay53.net/live/media/vtv1/live247-hls-avc/index.m3u8
+#EXTINF:-1 tvg-id="VTV4.vn@HD" group-title="Vietnam",VTV4 HD
+https://live-a.fptplay53.net/live/media/vtv4/live247-hls-avc/index.m3u8
+
+# --- International / explicitly left-aligned ---
+#EXTINF:-1 tvg-id="Telesur.ve@SD" group-title="International Left",TeleSUR
+https://mblesmain01.telesur.ultrabase.net/mbliveMain/480p/playlist.m3u8
+#EXTINF:-1 tvg-id="RedLine.ru@SD" group-title="International Left",Krasnaya Liniya (Red Line)
+http://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/index.m3u8
