@@ -1,0 +1,12 @@
+#EXTM3U
+# Legitimate/public adult-oriented linear streams only.
+# No pirated premium TV restreams.
+# Verified/researched on 2026-09-18.
+
+# Visit-X TV — official broadcaster-hosted HLS on stream.visit-x.tv
+#EXTINF:-1 tvg-id="VisitXTV.nl" group-title="Adult TV",Visit-X TV
+https://stream.visit-x.tv/vxtv/live/playlist.m3u8
+
+# Miami TV — official 24/7 entertainment network; public HLS feed
+#EXTINF:-1 tvg-id="MiamiTV.us" group-title="Adult TV",Miami TV
+https://59ec5453559f0.streamlock.net/miamitv/smil:miamitv/playlist.m3u8
